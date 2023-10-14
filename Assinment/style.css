@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=IBM+Plex+Sans&display=swap');
+@import "../node_modules/rfs/scss";
+*
+
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 10vh;
+}
+.mainnav
+{
+    Width:1440px;
+    Height:72px;
+}
+.searchbar
+{
+    width: 360px;
+    height: 42px;
+    color: #5C5C5C;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 21px;
+    background: #F2F2F2;
+    border: none;
+}
+.parentpara1
+{
+    display: inline;
+    color: #2E2E2E;
+    text-align: right;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+.blue
+{
+    display: inline;
+    color: #2F6CE5;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.navtext
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.navimg
+{
+    width: 162.57px;
+    height: 24px;
+    top: 0px;
+    left: 72px;
+}
+.topimg
+{
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+}
+.imgelem
+{
+    position: absolute;
+    top: -70px;
+    width: 100%;
+}
+.imgtext
+{
+    position: absolute;
+    color: white;
+    top: 250px;
+    left: 100px;
+    color: #FFF;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.parent
+{
+    position: relative;
+    height: fit-content;
+}
+.imgtext2
+{
+    position: absolute;
+    color: white;
+    top: 300px;
+    left: 100px;
+    color: #FFF;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+}
+div.overlay {
+    opacity: .9;
+    background-color: black;
+}
+.main-body
+{
+    flex-direction: column;
+    
+}
+p{
+    margin-bottom: 0;
+}
+.details
+{
+    margin-top: 4vh;
+    height: 7vh;
+}
+.threedoticon
+{
+    display: inline;
+}
+.icon
+{
+    display: inline;
+}
+.human
+{
+    border-radius: 50%;
+}
+.articles
+{
+    width: fit-content;
+}
+.icon
+{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 134.167%; /* 29.517px */
+}
+.lessdesc
+{
+    color: #5C5C5C;
+    font-family: IBM Plex Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.167%; /* 25.492px */
+}
+.art
+{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.searchbar
+{
+    color: #5C5C5C;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 40px;
+}
+
+.right
+{
+    width: 21vw;
+}
+.rightchild
+{
+    width: 18vw;
+}
+.rightpara
+{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.searchicon
+{
+    position: absolute;
+    left: 0;
+}
+.signin-up
+{
+    height: 100vh;
+    width: 98vw;
+    position: absolute;
+    transition-duration: 1s;
+    transition-property: opacity;
+}
+.signin-window
+{
+    height: 70vh;
+    width: 50%;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.25);
+}
+.title-text
+{
+    color: #008A45;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+}
+.title-head
+{
+    height: 6vh;
+    border-radius: 8px 8px 0px 0px;
+    background: #EFFFF4;
+}
+.createacc
+{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.createaccpar
+{
+    width: 24vw;
+}
+.inp1
+{
+    height: 5vh;
+    width: 9vw;
+    border-radius: 2px 2px 0px 0px;
+    border: 1px solid #D9D9DB;
+    background: #F7F8FA;
+}
+.inp2
+{
+    height: 5vh;
+    width: 18vw;
+    border-radius: 2px 2px 0px 0px;
+    border: 1px solid #D9D9DB;
+    background: #F7F8FA;
+}
+.inpparent
+{
+    position: relative;
+    padding: 24px;
+}
+.eye
+{
+    position: absolute;
+    right: 72px;
+}
+.inpparent input
+{
+    padding: 20px;
+}
+.createacc1
+{
+    width: 18vw;
+    color: #FFF;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 114.286% */
+    height: 5vh;
+}
+.createacc2
+{
+    width: 18vw;
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+}
+.createacc2 img
+{
+    height: 16px;
+}
+.tc
+{
+    color: #000;
+    text-align: right;
+    font-family: IBM Plex Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 145.455% */
+    letter-spacing: -0.088px;
+}
+.romrom
+{
+    color: #2F6CE5;
+    font-family: IBM Plex Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+.opc
+{
+    opacity: 0.3;
+}
+.opc1
+{
+    opacity: 0;
+    z-index: -1;
+}
+.opc2
+{
+    opacity: 1;
+    z-index: 1;
+}
+.dhue
+{
+    filter: brightness(40%);
+    background: rgba(0, 0, 0, 0.578);
+}
+.mainflow
+{
+    transition-property: all;
+    transition-duration: 1s;
+}
+.cross
+{
+    right: -40px;
+    top: -40px;
+    cursor: pointer;
+}
+.signin
+{
+    height: 100vh;
+    width: 98vw;
+    position: absolute;
+    transition-duration: 1s;
+    transition-property: opacity;
+}
+.toppara
+{
+    cursor: pointer;
+}
+.overlay
+{
+    position: relative;
+}
+@media (max-width: 700px) {
+    /* mobile CSS: hide .desktop div */
+    .desktop {
+      display: none
+    }
+  }
